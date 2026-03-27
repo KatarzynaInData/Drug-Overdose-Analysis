@@ -1,0 +1,13 @@
+## Data
+  
+- `drug_deaths.csv` – original dataset 
+- `cleaned_drug_death_COLAB.xlsx` – cleaned and processed in Python (Colab)
+- `drug_deaths_V2.xlsx` – further transformations in Excel / Power Query
+
+Pipeline:
+drug_deaths.csv → Python (Colab) → Excel / Power Query
+
+## Data source
+
+Dataset: Drug overdose deaths – Kaggle  
+https://www.kaggle.com/datasets/ruchi798/drug-overdose-deaths?select=drug_deaths.csv
