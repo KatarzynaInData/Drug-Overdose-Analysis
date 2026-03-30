@@ -19,6 +19,13 @@ The analysis is built on a comprehensive toxicology dataset from Connecticut (20
 •	Key Features: Includes age, sex, race, death city, and binary indicators (0/1) for 16 different substances, including Heroin, Fentanyl, and Cocaine.
 •	Top 5 substances: A specialized attribute column created to categorize the primary substance involved in each case for hierarchical analysis.
 
+⚙️ How to Run
+
+Data Setup: Ensure drug_deaths.csv is available in the script's working directory.
+Local use: Place the CSV in the same folder as the notebook.
+Google Colab: Upload the CSV to the session storage before running the cells.
+Execution: Run the notebook cells in sequence to initiate the Method Chaining pipeline and generate the ustandarized df_filled dataframe.
+
 🔍 Scope Definition & Design Decisions
 
 •	Data Integrity & Logic: A rigorous distinction is maintained between unique fatalities (5,105) and toxicological mentions (8,868). This discrepancy is explicitly addressed as a result of polydrug use (multiple substances detected per victim), preventing misinterpretation of the fatality rate.
